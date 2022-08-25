@@ -1,0 +1,167 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box
+} 
+
+/* --- NAVBAR --- */
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #24262b;
+}
+    
+.nvb{
+    display: flex;
+}
+ul{
+    display: flex;
+    background: none;
+    font-size: 20px;
+}
+li{
+    list-style-type: none;
+}
+nav a{
+    padding: 50px;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+
+    float: left;
+    display: block;    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#btnacc :hover{
+    color: red;
+    text-decoration: underline;
+    
+}
+.nav-link{
+    margin-top: 1%;
+}
+
+/* ---NO ARTICLE--- */
+
+#basket{
+    padding-left: 30%;
+}
+
+#titre-panier{
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+
+}
+
+#basket-fiche{
+    width: 90%;
+}
+#injectJs{
+    width: 70%;
+    margin-bottom: 20px;
+    
+}
+
+#basketProduit{
+    width: 80%;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 16%), 0 2px 5px rgb(0 0 0/ 26%);
+    padding: 20px;
+    /* padding-left: 25%; */
+    display: flex;
+
+}
+#blocImage{
+    width:  30%;
+    height: 10%;
+}
+
+ #img1{
+    width: 100%;
+    height: auto;
+} 
+
+#blocProduit{
+    width: 30%;
+    /* text-align: center; */
+    /* padding-left: 20%; */
+    margin-top: 4%;
+
+}
+
+#bloc-change-produit{
+    width: 35%;
+    align-items: center;
+    
+}
+.fa-trash{
+    padding-TOP: 100%;
+}
+#bloc-change-produit P{
+    margin-top: 35%;
+}
+.bouton-moins,
+.bouton-plus{
+    border: 1px solid rgba(231, 65, 43, 0.176);
+    background-color: white;
+    color: red;
+    font-size: xx-large;
+    width: 30px;
+    height: 40px;
+    cursor: pointer;
+   
+}
+.flex-centre{
+    padding-top: 35%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.produit-quantite{
+    padding-top: 5%
+    
+}
+.flex-centre input{
+    border: none;
+    text-align: center;
+    width: 32px;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+}
+
+.total{
+    margin-left: 40%;
+}
+
+#img2{
+    width: 120px ;
+    height: 165px;
+    padding-left:20%
+}
+
+/* --- footer --- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer p{
+    color: white;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    max-width: 1200px;
+    padding-left: 30%;
+}

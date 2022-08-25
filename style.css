@@ -1,0 +1,231 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box
+} 
+/* --- NAVBAR --- */
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #24262b;
+}
+.nvb{
+    display: flex;
+}
+ul{
+    display: flex;
+    background: none;
+    font-size: 20px;
+}
+li{
+    list-style-type: none;
+}
+nav a{
+    padding: 50px;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    float: left;
+    display: block;    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#btnacc :hover{
+    color: red;
+    text-decoration: underline;
+    
+}
+.nav-link{
+    margin-top: 1%;
+}
+.nav-item a{
+    color: white;
+}
+.dropdown-menu a{
+    color: black;
+}
+/* ---BUTTON--- */
+
+.top {
+offset: 50px;  
+position: sticky;
+bottom: 20px;      
+margin-right:10px; 
+place-self: end;
+margin-top: calc(100vh + var(--offset));
+text-decoration: none;
+padding: 10px;
+font-family: sans-serif;
+color: #fff;
+background: #000;
+border-radius: 100px;
+white-space: nowrap;
+margin-left: 1%;
+}
+
+p {
+font-size: 25px;
+}
+
+/* --- LA PREMIIERE PARTIE --- */
+
+.intro{
+    text-align: center;
+    font-size: 30px;
+    /* background-color: #efefef; */
+    max-width: ;
+}
+.intro h2{
+    color: #847577;
+}
+.intro p{
+    color: #847577;
+    font-size: 30px;
+}
+i{
+    font-size:  30PX;
+}
+
+/* --- CAROUSEL!--- */
+
+.carousel-control-prev-icon{
+    max-width: 300px;
+    
+} 
+
+.crsl img {
+    
+    height: 400px;  
+    max-width: 700px;  
+    padding: 7%;
+    margin-left: 32%;
+}
+
+/* --- LES ARTICLES --- */
+
+#titre1{
+    text-align: center;
+    color: #847577;
+}
+
+#title2{
+    text-decoration: underline;
+    color: black; font-family: 'Droid serif', serif;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
+    padding:1% ;
+
+}
+
+.Phones{
+    /* display: flex; */
+    justify-content: space-between;
+    flex-wrap:nowrap;
+    margin: 2% 10%;
+    
+}
+.phone img{
+    height: 300px;
+    width: 300px;
+    
+}
+.phone{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+
+.Phones button{
+    border: none;
+}
+.nav-link{
+    margin-top: 13%;
+}
+
+.modifier{
+    width: 300px;
+    height: 4100px;
+    background-color: #847577;
+}
+
+.smng{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.smng img {
+    height: 300px;
+    max-width: 300px;
+}
+
+.hwi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.hwi img{
+    height: 300px;
+    max-width: 300px;
+}
+
+.form{
+    max-width: 1300px;
+    padding-left: 30%;
+}
+
+.article{
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.all{
+    border-radius: 2%;
+    margin-bottom: 2%;
+    padding: 2%
+}
+.all a{
+    text-decoration: none;
+    color: #000;
+} 
+.all button{
+    background-color: #fff;
+}
+.all img{
+    border-radius: 2%;
+}
+.all div{
+    justify-content: space-between;
+    align-items: center;
+    padding: 4%;
+}
+
+/* --- footer --- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px;
+}
+.footer p{
+    color: white;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    max-width: 1200px;
+    padding-left: 30%;
+}
